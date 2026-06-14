@@ -1,9 +1,8 @@
 # 🏥 Patient Master Data Management (MDM) Project
 
-![SQL](https://img.shields.io/badge/SQL-Server-blue)
+![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue)
 ![PowerBI](https://img.shields.io/badge/Power-BI-yellow)
 ![MDM](https://img.shields.io/badge/Informatica-MDM-orange)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14-blue)
 
 ## 📌 Problem Statement
 A hospital network with 4 source systems had duplicate patient 
@@ -17,7 +16,7 @@ builds a Patient MDM Hub with a single Golden Record per patient.
 - Visualise MDM metrics in a 3-page Power BI dashboard
 
 ## 🛠️ Tools & Skills
-SQL · PostgreSQL · Power BI Desktop · DAX · ETL · 
+SQL · PostgreSQL 14 · Power BI Desktop · DAX · ETL · 
 Informatica MDM · Data Governance · Data Quality
 
 ## 📁 Project Structure
@@ -28,7 +27,7 @@ Informatica MDM · Data Governance · Data Quality
 | 02_data_model | Schema DDL — patient_source & golden_patient tables |
 | 03_sample_data | 20-row dataset with intentional DQ issues |
 | 04_sql_queries | 6 SQL queries (profiling → golden record) |
-| 05_dashboard | Power BI dashboard screenshots (3 pages) |
+| 05_dashboard | Power BI dashboard screenshots — 3 pages |
 
 ## 📊 Key Results (SQL Verified — PostgreSQL 14)
 - 20 patient records analysed across 4 source systems
@@ -40,6 +39,7 @@ Informatica MDM · Data Governance · Data Quality
 - Missing phone: 6 records (30%) | Missing email: 4 records (20%)
 
 ## 🔍 SQL Queries Written
+
 | File | Purpose |
 |------|---------|
 | 01_data_profiling.sql | Null counts & completeness % per column |
