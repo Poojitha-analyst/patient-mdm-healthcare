@@ -29,9 +29,12 @@ SQL Server · Informatica MDM · Power BI · ETL · Data Governance
 | 05_dashboard | Power BI screenshots & NovyPro link |
 
 ## 📊 Key Results
-- 41,230 Golden Records from 50,000 source records
-- DQ Score improved from 71.2% → 82.4%
-- 3,481 critical errors resolved
+- 20 patient records analysed across 4 source systems
+- 6 duplicate pairs identified — 30% duplicate rate
+- Overall Avg DQ Score: 90% (SQL verified)
+- Legacy HIS lowest performing source at 76% DQ score
+- 27 total DQ issues across 7 categories
+- Apollo EHR highest quality source at 97.1%
 
 ## 👤 Author
 Poojitha · Data Analyst @ Deloitte US–India
