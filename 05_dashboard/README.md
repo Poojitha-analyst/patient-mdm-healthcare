@@ -1,10 +1,20 @@
 # Power BI Dashboard
-4-page dashboard built on the cleaned MDM dataset.
+
+3-page dashboard built on SQL-verified MDM dataset.
 
 ## Pages
-1. Executive Summary — KPI cards
-2. DQ Dimension Scorecard
-3. Source System Comparison
-4. Issue Tracker
+1. Executive Summary — KPI cards + source system charts
+2. Source System Analysis — DQ scores + missing fields
+3. DQ Issues Analysis — severity breakdown + issues log
 
-Dashboard link (NovyPro): _to be added_
+## Key Findings
+- Overall Avg DQ Score: 90%
+- Legacy HIS worst performing: 76% DQ score
+- 6 duplicate pairs identified
+- 27 total DQ issues across 7 categories
+
+## Dashboard Screenshots
+See screenshots in this folder.
+
+## Tools Used
+Power BI Desktop · DAX · PostgreSQL · CSV
