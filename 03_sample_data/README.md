@@ -1,5 +1,5 @@
 # Sample Data
-Patient source data (50 rows) with intentional DQ issues:
+Patient source data (20 rows) with intentional DQ issues:
 - 10 duplicate records
 - 8 missing phone numbers
 - 5 DOB format inconsistencies
